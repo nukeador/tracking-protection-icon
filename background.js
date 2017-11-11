@@ -1,5 +1,5 @@
-const TITLE_ENABLE = "Tracking protection disabled, click to enable";
-const TITLE_DISABLE = "Tracking protection enabled, click to disable";
+const TITLE_ENABLE = browser.i18n.getMessage("titleEnable");
+const TITLE_DISABLE = browser.i18n.getMessage("titleDisable");
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
 
 /*

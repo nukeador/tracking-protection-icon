@@ -1,0 +1,18 @@
+{
+  "extensionName": {
+    "message": "Tracking protection icon",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Add a simple icon to the address bar to enable or disable tracking protection.",
+    "description": "Description of the extension."
+  },
+  "titleEnable": {
+    "message": "Tracking protection disabled, click to enable",
+    "description": "Title to enable tracking protection."
+  },
+  "titleDisable": {
+    "message": "Tracking protection enabled, click to disable",
+    "description": "Title to disable tracking protectionn."
+  }
+}

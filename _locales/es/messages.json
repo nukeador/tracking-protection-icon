@@ -1,0 +1,18 @@
+{
+  "extensionName": {
+    "message": "Icono de protección contra rastreo",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Añade un icono sencillo en la barra de direcciones para activar o desactivar la protección contra rastreo.",
+    "description": "Description of the extension."
+  },
+  "titleEnable": {
+    "message": "Protección contra rastreo desactivada, clic para activar",
+    "description": "Title to enable tracking protection."
+  },
+  "titleDisable": {
+    "message": "Protección contra rastreo activada, clic para desactivar",
+    "description": "Title to disable tracking protectionn."
+  }
+}
