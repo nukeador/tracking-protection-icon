@@ -2,14 +2,6 @@ const TITLE_ENABLE = "Tracking protection disabled, click to enable";
 const TITLE_DISABLE = "Tracking protection enabled, click to disable";
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
 
-function onSet(result) {
-  if (result) {
-    console.log("success");
-  } else {
-    console.log("failure");
-  }
-}
-
 /*
 Toggle Tracking: based on the setting, enable or disable the tracking.
 Update the page action's title and icon to reflect its state.
@@ -26,7 +18,6 @@ function toggleTracking(tab) {
       });
       browser.pageAction.setIcon({tabId: tab.id, path: "images/icon-on.svg"});
       browser.pageAction.setTitle({tabId: tab.id, title: TITLE_DISABLE});
-      setting.then(onSet);
     } else {
       var setting = browser.privacy.websites.trackingProtectionMode.set({
           value: "private_browsing"

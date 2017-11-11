@@ -1,8 +1,10 @@
 {
   "name": "Tracking protection icon",
   "version": "0.0.1",
+  "author": "Nukeador",
   "manifest_version": 2,
   "description": "Add a simple icon to the address bar to enable or disable tracking protection",
+  "homepage_url": "https://github.com/nukeador/tracking-protection-icon",
   "icons": {
     "48": "images/icon-48.png",
     "96": "images/icon-96.png"
